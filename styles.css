@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html, body {
+    height: 110%;
+    background: linear-gradient(to top right, #80cbc4, #e1bee7,
+                                               #80ddea, #d1c4e9);
+}
+
+form{
+    padding: 20px 15px 20px 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1px;
+    width: 250px;
+}
+
+.containertwo{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+
+}
+
+label.logo{
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    padding: 0 100px;
+    line-height: 80px;
+    vertical-align: middle;
+}
+
+nav {
+    height: 80px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 5px 7px 10px rgba(0, 0, 0, .5);
+
+}
+
+nav ul {
+    float: right;
+    margin-right: 40px;
+
+}
+
+nav li{
+    display: inline-block;
+    margin: 0px;
+    line-height: 80px;
+    vertical-align: middle;
+
+}
+
+nav ul li a {
+    display: flex;
+    align-items: center;
+    font-size: 1.15em;
+    text-decoration: none;
+    text-transform: none;
+    color: #000;
+    padding: 10px 30px;
+    height: 80px;
+    transition: 0.5s ease;
+    border-radius: 0 30px;
+    
+}
+
+nav ul li a:hover{
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+
+
+nav li a{
+    display: flex;
+    align-items: center;
+    font-size: 1.15em;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000;
+    padding: 5px;
+    height: 80px;
+    width: auto;
+    transition: .5s ease;
+    border-radius: 0 30px;
+}
+
+nav ul li a:hover{
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+
+.teampic {
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    padding: 0px 100px 0px 100px; /*top right bottom left*/
+    display: grid;       
+    justify-content: center;
+}
+
+.info h1{
+    font-size: 50px;
+}
+
+.info h4{
+    font-size: 14px;
+}
